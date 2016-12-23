@@ -2,7 +2,7 @@ FROM beevelop/android:gapis
 
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
-ENV NODEJS_VERSION=5.10.1 \
+ENV NODEJS_VERSION=6.9.2 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
