@@ -1,6 +1,6 @@
 FROM iamaroot/android
 
-ENV NODEJS_VERSION=10.16.3 \
+ENV NODEJS_VERSION=12.13.1 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
