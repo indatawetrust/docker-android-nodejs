@@ -5,27 +5,27 @@
 ![Badges](https://shields.beevelop.com/badge/badges-7-brightgreen.svg?style=flat-square)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
-# Latest Android with Node.js `v8` and npm
+# Latest Android with Node.js `v12` and npm
 ### based on [beevelop/android](https://github.com/beevelop/docker-android)
 ----
 ### Pull from Docker Hub
 ```
-docker pull beevelop/android-nodejs:latest
+docker pull iamaroot/android-nodejs:latest
 ```
 
 ### Build from GitHub
 ```
-docker build -t beevelop/android-nodejs github.com/beevelop/docker-android-nodejs
+docker build -t iamaroot/android-nodejs github.com/iamaroot/docker-android-nodejs
 ```
 
 ### Run image
 ```
-docker run -it beevelop/android-nodejs bash
+docker run -it iamaroot/android-nodejs bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM beevelop/android-nodejs:latest
+FROM iamaroot/android-nodejs:latest
 ```
 
 ----
