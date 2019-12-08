@@ -1,4 +1,4 @@
-FROM beevelop/android
+FROM iamaroot/android
 
 ENV NODEJS_VERSION=10.16.3 \
     PATH=$PATH:/opt/node/bin
